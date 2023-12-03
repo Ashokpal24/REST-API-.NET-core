@@ -11,8 +11,8 @@ public static class EntityExtensions
             game.Name,
             game.Genre,
             game.Price,
-            game.ReleaseDate,
-            game.ImageUri
+            game.ReleaseDate
+            // game.ImageUri
         );
     }
 

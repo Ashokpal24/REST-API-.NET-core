@@ -7,8 +7,8 @@ public record GameDto(
     string Name,
     string Genre,
     decimal Price,
-    DateTime ReleaseDate,
-    string ImageUri
+    DateTime ReleaseDate
+    // string ImageUri
 );
 
 public record CreateGameDto(
